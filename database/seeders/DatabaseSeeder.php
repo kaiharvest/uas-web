@@ -25,7 +25,7 @@ class DatabaseSeeder extends Seeder
                 'number_type' => 'NIS',
                 'role' => User::ROLES['Admin'],
                 'password' => Hash::make('password'),
-                'address' => 'America',
+                'address' => 'Indonesia',
                 'telephone' => '627878787878',
                 'gender' => User::GENDERS['Man'],
             ]);
@@ -36,7 +36,7 @@ class DatabaseSeeder extends Seeder
                 'number_type' => 'NIS',
                 'role' => User::ROLES['Librarian'],
                 'password' => Hash::make('password'),
-                'address' => 'America',
+                'address' => 'Indonesia',
                 'telephone' => '627878787878',
                 'gender' => User::GENDERS['Woman'],
             ]);
@@ -47,7 +47,7 @@ class DatabaseSeeder extends Seeder
                 'number_type' => 'NIS',
                 'role' => User::ROLES['Member'],
                 'password' => Hash::make('password'),
-                'address' => 'America',
+                'address' => 'Indonesia',
                 'telephone' => '627878787878',
                 'gender' => User::GENDERS['Woman'],
             ]);
